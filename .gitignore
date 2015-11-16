@@ -1,4 +1,6 @@
 *.bak
 *.kicad_pcb-bak
 ARMKit2-cache.lib
+Gerber/ARMKit2.*
+Gerber/*.zip
 
