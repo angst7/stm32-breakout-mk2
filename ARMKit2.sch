@@ -1406,10 +1406,6 @@ F 3 "" H 6375 6300 60  0000 C CNN
 	1    6375 6300
 	-1   0    0    1   
 $EndComp
-Text GLabel 6475 5975 1    60   Input ~ 0
-PB15
-Text GLabel 6575 6350 1    60   Input ~ 0
-PB14
 Wire Wire Line
 	6575 6350 6575 6400
 Wire Wire Line
@@ -1504,4 +1500,8 @@ Wire Wire Line
 	10775 3500 10675 3500
 Text GLabel 10675 3500 0    60   Input ~ 0
 VBAT
+Text GLabel 6575 6350 1    60   Input ~ 0
+PA11
+Text GLabel 6475 5975 1    60   Input ~ 0
+PA12
 $EndSCHEMATC
