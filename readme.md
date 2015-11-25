@@ -1,5 +1,5 @@
-#STM32-breakout#
-========
+#STM32F4 development board#
+
 ARMKit2 Breakout and development board for the 64-pin LQFP STM32F405 microcontroller.
 
 The STM32F405 is a 32-bit ARM Cortex M4 micro manufactured by ST Microelectronics.
