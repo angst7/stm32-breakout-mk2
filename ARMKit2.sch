@@ -933,7 +933,7 @@ Wire Wire Line
 Wire Wire Line
 	10775 4800 10375 4800
 Wire Wire Line
-	10775 3800 10375 3800
+	10775 3500 10675 3500
 Text GLabel 9125 3675 0    60   Input ~ 0
 PC0
 Text GLabel 9425 3775 0    60   Input ~ 0
@@ -960,7 +960,7 @@ Text GLabel 10700 4900 0    60   Input ~ 0
 PC11
 Text GLabel 10375 4800 0    60   Input ~ 0
 PC12
-Text GLabel 10375 3800 0    60   Input ~ 0
+Text GLabel 10675 3500 0    60   Input ~ 0
 PC13
 Wire Wire Line
 	10400 6000 10775 6000
@@ -1165,7 +1165,7 @@ $EndComp
 Wire Wire Line
 	6775 2700 6650 2700
 Wire Wire Line
-	6650 2700 6650 2300
+	6650 2300 6650 2700
 Wire Wire Line
 	6275 2300 6775 2300
 Wire Wire Line
@@ -1380,8 +1380,8 @@ PC9
 Text GLabel 6225 4100 1    60   Input ~ 0
 PC8
 Wire Wire Line
-	10775 3500 10675 3500
-Text GLabel 10675 3500 0    60   Input ~ 0
+	10775 3800 10350 3800
+Text GLabel 10350 3800 0    60   Input ~ 0
 VBAT
 Text GLabel 6575 6350 1    60   Input ~ 0
 PA11
