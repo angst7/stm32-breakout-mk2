@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.0-rc2-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.0-stable)
 
   (general
     (links 136)
@@ -1243,7 +1243,7 @@
       (net 5 VDD1))
     (pad 32 thru_hole oval (at 2.54 38.1) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x16.wrl
+    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x16.wrl
       (at (xyz 0.05 -0.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1337,7 +1337,7 @@
       (net 1 GND))
     (pad 32 thru_hole oval (at 2.54 38.1) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model Pin_Headers.3dshapes/Pin_Header_Straight_2x16.wrl
+    (model Socket_Strips.3dshapes/Socket_Strip_Straight_2x16.wrl
       (at (xyz 0.05 -0.75 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
@@ -1369,6 +1369,11 @@
       (net 7 "Net-(C7-Pad2)"))
     (pad 2 smd rect (at 4.84886 0) (size 5.6007 2.10058) (layers F.Cu F.Paste F.Mask)
       (net 6 OSCIN))
+    (model Crystals.3dshapes/Q_49U3HMS.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module SMD_Packages:SMD-1206_Pol (layer F.Cu) (tedit 0) (tstamp 5629858A)
