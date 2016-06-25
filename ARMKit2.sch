@@ -1535,4 +1535,6 @@ Wire Wire Line
 	7300 1625 7300 1750
 Wire Wire Line
 	7300 1325 7300 1175
+Text Notes 550  975  0    60   ~ 0
+Notes:\nFor STM32F405 parts, Populate C1 and C3 with 2.2uF capacitors.  \nDo not populate C5, R9.\nFor STM32F41x, STM32F4x1 parts, Populate R9 and C1 with 0 ohm resistor. \nPopulate C5 with 4.7uF capacitor.  Do not populate C3.
 $EndSCHEMATC
