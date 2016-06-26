@@ -473,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4350 5200 4350
 Text GLabel 5200 3750 2    60   Input ~ 0
-PB11/VCAP1
+PB11_VCAP1
 Text GLabel 5200 3900 2    60   Input ~ 0
 PB12
 Text GLabel 5200 4050 2    60   Input ~ 0
@@ -897,7 +897,7 @@ Wire Wire Line
 Wire Wire Line
 	9525 5875 9125 5875
 Text GLabel 9125 5475 0    60   Input ~ 0
-PB11/VCAP1
+PB11_VCAP1
 Text GLabel 9425 5575 0    60   Input ~ 0
 PB12
 Text GLabel 9125 5675 0    60   Input ~ 0
@@ -1508,7 +1508,7 @@ Wire Wire Line
 	8800 1550 8800 1475
 Connection ~ 8500 1550
 Text GLabel 7300 1175 1    60   Input ~ 0
-PB11/VCAP1
+PB11_VCAP1
 $Comp
 L C C5
 U 1 1 576E0E98

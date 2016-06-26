@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Matt\Documents\KiCad\stm32-breakout-mk2\ARMKit2.sch)
-    (date "6/24/2016 9:52:05 PM")
+    (source C:/Users/Matt/Documents/KiCad/stm32-breakout-mk2/ARMKit2.sch)
+    (date "6/25/2016 11:26:08 PM")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -467,10 +467,10 @@
   (libraries
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical regul)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\regul.lib"))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical ARMKit2)
       (uri C:\Users\Matt\Documents\KiCad\stm32-breakout-mk2\ARMKit2.lib)))
   (nets
@@ -544,7 +544,7 @@
     (net (code 6) (name PB10)
       (node (ref U1) (pin 29))
       (node (ref P2) (pin 22)))
-    (net (code 7) (name PB11/VCAP1)
+    (net (code 7) (name PB11_VCAP1)
       (node (ref U1) (pin 30))
       (node (ref C5) (pin 2))
       (node (ref P2) (pin 23)))
