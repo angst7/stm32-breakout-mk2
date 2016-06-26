@@ -15,6 +15,8 @@ The design is intended to be as bare-bones as possible, while enabling access to
 * Standard 6-Pin programming header for ST/Link
 * 3mm mounting holes
 
+Available as a shared project on [OSHPark](https://oshpark.com/profiles/MonkeyKungFu)
+
 ##Note regarding part population##
 
 For STM32F405 parts, Populate C1 and C3 with 2.2uF capacitors.  Do not populate C5, R9.
